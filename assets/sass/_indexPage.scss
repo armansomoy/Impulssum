@@ -1,0 +1,20 @@
+nav {
+    height: 90px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+
+    .nav-item {
+        padding: 0px 15px;
+
+        .nav-link {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            @include transition(.3s);
+
+            &:hover {
+                color: $mainColor;
+            }
+        }
+    }
+}

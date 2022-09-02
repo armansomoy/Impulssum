@@ -1,0 +1,58 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+* {
+  scrollbar-width: thin; }
+
+::-webkit-scrollbar {
+  width: 5px; }
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif; }
+
+/* Change text & background color */
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit; }
+
+button,
+button:hover,
+button:focus,
+button:active {
+  outline: none; }
+
+img {
+  vertical-align: middle; }
+
+ul,
+ol {
+  list-style: none; }
+
+nav {
+  height: 90px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.34); }
+  nav .nav-item {
+    padding: 0px 15px; }
+    nav .nav-item .nav-link {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      -ms-transition: all linear 0.3s;
+      -o-transition: all linear 0.3s;
+      transition: all linear 0.3s; }
+      nav .nav-item .nav-link:hover {
+        color: #9DB7EA; }
+
+/*# sourceMappingURL=style.css.map */
