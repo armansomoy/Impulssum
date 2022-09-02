@@ -49,6 +49,7 @@ ol {
 
 // color 
 $mainColor: #9DB7EA;
+$colorFont: rgba(85, 119, 186, 1);
 
 @mixin transition($duration) {
 	-webkit-transition: all linear $duration;
@@ -56,4 +57,43 @@ $mainColor: #9DB7EA;
 	-ms-transition: all linear $duration;
 	-o-transition: all linear $duration;
 	transition: all linear $duration;
+}
+
+.after-span {
+	position: relative;
+
+	&::after {
+		position: absolute;
+		content: '';
+		bottom: 2px;
+		left: 0;
+		height: 22px;
+		width: 100%;
+		background-color: $mainColor;
+		z-index: -1;
+	}
+}
+
+.bottomToTop {
+	padding: 5px 10px;
+	position: fixed;
+	bottom: 65px;
+	right: 20px;
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	line-height: 38px;
+	text-align: center;
+	border-radius: 50%;
+	transition: all linear .3s;
+	background: $mainColor;
+	color: #fff;
+	display: none;
+	border: 2px solid $mainColor;
+
+	&:hover {
+		color: #000;
+		bottom: 75px;
+		background-color: transparent;
+	}
 }
