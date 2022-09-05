@@ -110,6 +110,10 @@
 
         .img-part {
             padding-top: 70px;
+
+            img{
+                width: 100%;
+            }
         }
 
     }
@@ -213,10 +217,11 @@
         &::after {
             position: absolute;
             content: "";
-            width: 369px;
+            width: 90%;
             height: 8px;
-            left: 20px;
+            left: 50%;
             top: 371px;
+            transform: translateX(-50%);
             background: $colorFont;
         }
 
@@ -363,7 +368,7 @@
             padding-bottom: 40px;
         }
 
-        a {
+        .connect-btn {
             padding: 23px 50px;
             font-weight: 600;
             font-size: 20px;
@@ -383,6 +388,63 @@
                 color: #fff;
             }
         }
+
+        h6 {
+            padding-top: 50px;
+
+            .footer-link {
+                color: $colorFont;
+                background-color: #fff;
+                border-radius: 30%;
+                box-shadow: 0 5px 15px -5px #00000022;
+                cursor: pointer;
+                display: inline-block;
+                height: 90px;
+                line-height: 104px;
+                margin: 5px;
+                overflow: hidden;
+                position: relative;
+                text-align: center;
+                transition: all .35s;
+                transition-timing-function: cubic-bezier(.31, -.105, .43, 1.59);
+                width: 90px;
+                z-index: 9;
+                @include transition(.3s);
+
+                &::after {
+                    background-color: $colorFont;
+                    content: "";
+                    height: 120%;
+                    left: -110%;
+                    position: absolute;
+                    top: 90%;
+                    -webkit-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                    width: 120%;
+                    transition: all .35s;
+                    transition-timing-function: cubic-bezier(.31, -.105, .43, 1.59);
+                    z-index: -1;
+                }
+
+                i {
+                    font-size: 32px;
+                    z-index: 999;
+                    color: $colorFont;
+                    @include transition(.3s);
+                }
+
+                &:hover i {
+                    color: #fff;
+                    -webkit-transform: scale(1.3);
+                    transform: scale(1.3);
+                }
+
+                &:hover:after {
+                    left: -10%;
+                    top: -10%;
+                }
+            }
+        }
     }
 }
 
@@ -395,7 +457,7 @@
         font-size: 20px;
         line-height: 24px;
         text-align: center;
-        color: #2c2c2c;
+        color: #5a5a5a;
         margin-bottom: 0px;
 
         a {
