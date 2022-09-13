@@ -37,18 +37,6 @@ ul,
 ol {
   list-style: none; }
 
-.after-span {
-  position: relative; }
-  .after-span::after {
-    position: absolute;
-    content: '';
-    bottom: 2px;
-    left: 0;
-    height: 22px;
-    width: 100%;
-    background-color: #9DB7EA;
-    z-index: -1; }
-
 .bottomToTop {
   padding: 5px 10px;
   position: fixed;
@@ -179,7 +167,8 @@ ol {
       font-size: 20px;
       line-height: 24px;
       color: #858585;
-      position: relative; }
+      position: relative;
+      padding-bottom: 10px; }
       #about-part .text-part .section-title::after {
         position: absolute;
         content: "";
