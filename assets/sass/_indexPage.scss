@@ -96,7 +96,7 @@
                 height: 55px;
                 width: 35%;
                 border-radius: 50%;
-                background-color: #9DB7EA;
+                background-color: $mainColor;
                 z-index: -1;
                 @include transition(.3s);
             }
@@ -347,7 +347,7 @@
     padding: 60px 0px;
 
     .contact-div {
-        background: #E3EFFF;
+        background: $mainColor;
         border-radius: 20px;
         padding: 90px 0px;
 
@@ -385,7 +385,7 @@
             }
 
             &:hover {
-                background-color: $colorFont;
+                background-color: #5577BA;
                 color: #fff;
             }
         }
@@ -394,7 +394,7 @@
             padding-top: 50px;
 
             .footer-link {
-                color: $colorFont;
+                color: #5577BA;
                 background-color: #fff;
                 border-radius: 30%;
                 box-shadow: 0 5px 15px -5px #00000022;
@@ -413,7 +413,7 @@
                 @include transition(.3s);
 
                 &::after {
-                    background-color: $colorFont;
+                    background-color: #5577BA;
                     content: "";
                     height: 120%;
                     left: -110%;
@@ -430,7 +430,7 @@
                 i {
                     font-size: 32px;
                     z-index: 999;
-                    color: $colorFont;
+                    color: #5577BA;
                     @include transition(.3s);
                 }
 

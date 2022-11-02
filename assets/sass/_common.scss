@@ -48,8 +48,8 @@ ol {
 }
 
 // color 
-$mainColor: #9DB7EA;
-$colorFont: rgba(85, 119, 186, 1);
+$mainColor: #AAE396;
+$colorFont: #AAE396;
 
 @mixin transition($duration) {
 	-webkit-transition: all linear $duration;
