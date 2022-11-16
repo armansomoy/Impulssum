@@ -543,13 +543,18 @@ ol {
     color: #000000; }
 
   #contact .contact-div {
-    padding: 90px 0px 70px; } }
+    padding: 90px 0px 70px; }
+
+  img {
+    width: 100%;
+    vertical-align: middle; } }
 /*======== small device =========*/
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-toggler-icon {
     padding-top: 7px; }
 
   .navbar-toggler {
+    display: none;
     padding: 6px 10px 10px;
     font-size: 1.25rem;
     line-height: 0px;
@@ -696,13 +701,18 @@ ol {
     line-height: 24px;
     text-align: center;
     color: #2c2c2c;
-    margin-bottom: 0px; } }
+    margin-bottom: 0px; }
+
+  img {
+    width: 100%;
+    vertical-align: middle; } }
 /*======== Extra small device =========*/
 @media (max-width: 575.98px) {
   .navbar-toggler-icon {
     padding-top: 7px; }
 
   .navbar-toggler {
+    display: none;
     padding: 6px 10px 10px;
     font-size: 1.25rem;
     line-height: 0px;
@@ -849,6 +859,10 @@ ol {
     line-height: 24px;
     text-align: center;
     color: #2c2c2c;
-    margin-bottom: 0px; } }
+    margin-bottom: 0px; }
+
+  img {
+    width: 100%;
+    vertical-align: middle; } }
 
 /*# sourceMappingURL=style.css.map */

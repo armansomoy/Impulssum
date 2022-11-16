@@ -78,20 +78,23 @@
         line-height: 32px;
         padding-bottom: 20px;
     }
+
     #we-are .content-box .description {
         font-size: 16px;
         line-height: 24px;
     }
+
     #we-are .content-box {
         padding: 80px 30px 50px;
         text-align: center;
     }
 
     #we-offer .img-part {
-        img{
+        img {
             width: 100%;
         }
     }
+
     #we-offer .img-part .text-box {
         position: absolute;
         background: #F5F5F3;
@@ -104,9 +107,11 @@
         bottom: -80px;
         transform: translateX(-50%);
     }
+
     #we-offer .text-part {
         padding: 0px 0px;
     }
+
     #we-offer .text-part .section-heading {
         font-weight: 600;
         font-size: 36px;
@@ -115,15 +120,23 @@
         padding-bottom: 20px;
         padding-left: 20px;
     }
+
     #we-offer .text-part p {
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         color: #000000;
     }
+
     #contact .contact-div {
         padding: 90px 0px 70px;
     }
+
+    img {
+        width: 100%;
+        vertical-align: middle;
+    }
+
 }
 
 /*======== small device =========*/
@@ -133,6 +146,7 @@
     }
 
     .navbar-toggler {
+        display: none;
         padding: 6px 10px 10px;
         font-size: 1.25rem;
         line-height: 0px;
@@ -314,6 +328,12 @@
         color: #2c2c2c;
         margin-bottom: 0px;
     }
+
+    img {
+        width: 100%;
+        vertical-align: middle;
+    }
+
 }
 
 /*======== Extra small device =========*/
@@ -324,6 +344,7 @@
     }
 
     .navbar-toggler {
+        display: none;
         padding: 6px 10px 10px;
         font-size: 1.25rem;
         line-height: 0px;
@@ -505,4 +526,10 @@
         color: #2c2c2c;
         margin-bottom: 0px;
     }
+
+    img {
+        width: 100%;
+        vertical-align: middle;
+    }
+
 }
