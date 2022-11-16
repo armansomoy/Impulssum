@@ -278,6 +278,8 @@ ol {
         box-shadow: 0px 7px 50px -23px rgba(0, 0, 0, 0.25) !important;
         color: #000;
         background-color: #fff; }
+      #we-are .btn-part .box-btn i {
+        margin-left: 10px; }
 
 #we-offer {
   padding: 60px 0px 80px; }
